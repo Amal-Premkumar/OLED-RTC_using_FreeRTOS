@@ -103,8 +103,8 @@ FreeRTOS Heap: 15KB (configTOTAL_HEAP_SIZE)
 
 ### Adjust Task Priorities
 ```c
-xTaskCreate(OLED_Task, "oled", 512, NULL, 1, &oled_task_t);  // Higher priority
-xTaskCreate(RTC_Task, "rtc", 256, NULL, 2, &rtc_task_t);     // Lower priority
+xTaskCreate(OLED_Task, "oled", 512, NULL, 1, &oled_task_t);  // Lower priority
+xTaskCreate(RTC_Task, "rtc", 256, NULL, 2, &rtc_task_t);     // Higher priority
 ```
 
 ## 🐛 Debugging
