@@ -1,0 +1,16 @@
+../driver/rtc+oled_driver.c:45:20:gpio_enable_clock	10
+../driver/rtc+oled_driver.c:61:20:set_pin_mode	1
+../driver/rtc+oled_driver.c:68:20:set_pin_otype	1
+../driver/rtc+oled_driver.c:74:20:set_pin_speed	1
+../driver/rtc+oled_driver.c:81:20:set_pin_pupd	1
+../driver/rtc+oled_driver.c:88:20:set_pin_af	1
+../driver/rtc+oled_driver.c:97:6:GPIO_ConfigI2C_Pins	2
+../driver/rtc+oled_driver.c:124:6:gpio_init_i2c1_pins	1
+../driver/rtc+oled_driver.c:134:12:timeout_count	1
+../driver/rtc+oled_driver.c:139:13:delay_us	2
+../driver/rtc+oled_driver.c:149:6:i2c_init	4
+../driver/rtc+oled_driver.c:185:5:i2c_write	21
+../driver/rtc+oled_driver.c:257:9:i2c_read_reg1	26
+../driver/rtc+oled_driver.c:351:6:i2c_write_reg1	18
+../driver/rtc+oled_driver.c:405:6:i2c_bus_recovery	1
+../driver/rtc+oled_driver.c:419:5:i2c_read_regs	32

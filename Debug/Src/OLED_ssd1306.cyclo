@@ -1,0 +1,11 @@
+../Src/OLED_ssd1306.c:22:12:i2c_write_checked	4
+../Src/OLED_ssd1306.c:34:12:ssd1306_send_command	1
+../Src/OLED_ssd1306.c:43:6:ssd1306_init	2
+../Src/OLED_ssd1306.c:66:6:ssd1306_clear	1
+../Src/OLED_ssd1306.c:71:13:ssd1306_set_pixel	3
+../Src/OLED_ssd1306.c:79:6:ssd1306_update	4
+../Src/OLED_ssd1306.c:157:13:draw_char_scaled	13
+../Src/OLED_ssd1306.c:190:13:draw_string_scaled	2
+../Src/OLED_ssd1306.c:199:20:get_day_string	8
+../Src/OLED_ssd1306.c:214:6:draw_time_with_day_on_oled	1
+../Src/OLED_ssd1306.c:238:6:draw_time_on_oled	1

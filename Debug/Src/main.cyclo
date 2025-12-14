@@ -1,0 +1,6 @@
+C:/Users/Amal/RTOS_workspace/OLED_RTC_using_FreeRTOS/CMSIS/core/core_cm4.h:1800:26:ITM_SendChar	4
+../Src/main.c:45:13:delay_simple	2
+../Src/main.c:56:5:main	3
+../Src/main.c:97:6:ITM_print_time_with_day	5
+../Src/main.c:131:6:RTC_Task	6
+../Src/main.c:210:6:OLED_Task	5
